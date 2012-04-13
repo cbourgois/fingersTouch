@@ -1,0 +1,77 @@
+#playground { position:absolute;top:0;left:0;height:100%;width:100%; }
+   
+.moving #playground { background-color:pink; }
+   
+.touch-point{ 
+	position:absolute;
+	padding:20px;
+	background:#000;
+	border-radius:30px;
+	margin-top:0px; 
+} 
+.mini { 
+
+	padding:5px;
+
+	border-radius:30px;   
+	margin-top:2px;
+
+}
+.touch-point span{ 
+	position:absolute;
+	top:-50%;
+	left:100%;
+	background:#333;
+	color:#fff;
+	padding:5px;
+	font:11px/1.2 Arial;
+	width:80px;
+	border-radius:5px;
+	text-align:center;  
+	display: none;
+}
+
+
+#centerInfos { 
+	position: fixed;
+	background:#333;
+	color:#fff;
+	padding:5px;
+	font:11px/1.2 Arial;
+	width:100px;
+	text-align:center; 
+	bottom:0; 
+	left:0; 
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px; 
+}     
+
+#fingersInfos { 
+	position: fixed; 
+	background:#333;
+	color:#fff;
+	padding:8px;
+	font:11px/1.2 Arial;
+	width:100px;
+	bottom:0; 
+	right:0;  
+	text-align:center;      
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px; 
+}
+	
+   
+.finger0 { background:green; }
+.finger1 { background:blue; }
+.finger2 { background:cyan; }
+.finger3 { background:orange; }
+.finger4 { background:yellow; }
+.finger5 { background:darkmagenta; }
+.finger6 { background:hotpink; }
+.finger7 { background:yellowgreen; }
+.finger8 { background:salmon; }
+.finger9 { background:peru; }
+.finger10 { background:olive; }
+.finger11 { background:indianred; } 
